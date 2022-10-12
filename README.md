@@ -1,7 +1,7 @@
 # PaddleDetection_voc_list_pre
 ## You Should Know:
 This tool is used for paddledetection
-When training the voc dataset, the yml file(configs) lacks necessary trainval.txt and test.txt
+When training the voc dataset, the yml file(configs) lacks necessary trainval.txt and test.txt.
 The tool is built for it!
 ## one more thing
 when using AI Studio to run the module, the jpg or xml file dir in voc list should be divided by ' / ',
