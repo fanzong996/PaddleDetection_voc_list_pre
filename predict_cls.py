@@ -157,9 +157,5 @@ def main(config):
 
 if __name__ == "__main__":
     args = config.parse_args()
-    #options = {"Global","infer_imgs","F:/Python/skin_cat/PaddleClas/dataset/skin/train/Actinic_Keratosis_Basal_Cell_Carcinoma_and_other_Malignant_Lesions/actinic-cheilitis-sq-cell-lip-1.jpg"}
-    #args.override(["Global"], "infer_imgs","F:/Python/skin_cat/PaddleClas/dataset/skin/train/Actinic_Keratosis_Basal_Cell_Carcinoma_and_other_Malignant_Lesions/actinic-cheilitis-sq-cell-lip-1.jpg")
-    #print((args.override))
-    #args.override()
     config = config.get_config(args.config, overrides=args.override, show=True)
     main(config)
